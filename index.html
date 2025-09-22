@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> My BBC Home - Breaking News, World News, US News, Sports, Business, Innovation, Climate, Culture, Travel,
+        Video & Audio</title>
+    <link rel="icon" type="image/x-icon" href="/Pictures/bbc-logo-title.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="top-header">
+            <div id="hamburger-search">
+                <svg width="54" height="34" viewBox="0 0 80 48" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M66.8517 32.0842C68.5359 29.8276 69.5329 27.0282 69.5329 23.996C69.5329 16.5202 63.4727 10.46 55.9969 10.46C48.5212 10.46 42.4609 16.5202 42.4609 23.996C42.4609 31.4717 48.5212 37.532 55.9969 37.532C58.9975 37.532 61.77 36.5557 64.0141 34.9034L69.0904 39.9796L71.9188 37.1512L66.8517 32.0842ZM63.1568 30.3569C64.6606 28.6654 65.5741 26.4374 65.5741 23.996C65.5741 18.7066 61.2863 14.4188 55.9969 14.4188C50.7076 14.4188 46.4197 18.7066 46.4197 23.996C46.4197 29.2853 50.7076 33.5732 55.9969 33.5732C58.4383 33.5732 60.6664 32.6597 62.3579 31.1558L63.1568 30.3569Z"
+                        fill="currentColor">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M35.7184 33.6973H10.0254V37.6973H38.0738C37.1617 36.4525 36.3708 35.1133 35.7184 33.6973Z"
+                        fill="currentColor">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M33.6848 21.998H10.0273V25.998H33.6845C33.6283 25.3394 33.5996 24.673 33.5996 23.9998C33.5996 23.3254 33.6284 22.6578 33.6848 21.998Z"
+                        fill="currentColor">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M38.0747 10.2998H10.0273V14.2998H35.7186C36.3712 12.8837 37.1624 11.5446 38.0747 10.2998Z"
+                        fill="currentColor">
+                    </path>
+                </svg>
+            </div>
+            <div class="header-logo"> <img src="/Pictures/bbc-logo.png" alt=""></div>
+            <div class="signup">
+                <button id="register">Register</button>
+                <button id="signin">Sign In</button>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="nav-underline"></div>
+        <div class="nav-vertical-line"></div>
+        <div class="nav-list">
+            <ul class="nav-items">
+                <a href=""> Home</a>
+                <a href=""> News</a>
+                <a href=""> Sport</a>
+                <a href=""> Buisness</a>
+                <a href=""> Innovation</a>
+                <a href=""> Culture</a>
+                <a href=""> Arts</a>
+                <a href=""> Travel</a>
+                <a href=""> Earth</a>
+                <a href=""> Audio</a>
+                <a href=""> Video</a>
+                <a href=""> Live</a>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-aside">
+                <div class="aside-china-news">
+                    <img src="/Pictures/china-news-image.webp" alt="">
+                    <h4 class="hero-aside-heading">China's navy is expanding at breakneck speed -
+                        and catching up with the US
+                    </h4>
+                    <p class="hero-aside-paragraph">Beijing's shipbuilding capacity is 200 times that
+                        of the US, an expert says, calling the scale "extraordinary".
+                    </p>
+                    <h5 class="hero-date-country">14 hrs ago <span> | </span> Asia</h5>
+                    <span class="aside-divider">___________________________________</span>
+                </div>
+                <div class="aside-russia-news">
+                    <img src="/Pictures/russia-news.webp" alt="">
+                    <h4 class="hero-aside-heading">Putin says he reached 'understandings' with
+                        Trump over end of Ukraine war</h4>
+                    <p class="hero-aside-paragraph">The Russian president also defended his decision
+                        to invade Ukraine, once again blaming the war on the West.
+                    </p>
+                    <h5 class="aside-date-country">3 hrs ago <span> | </span> Europe</h5>
+                </div>
+            </div>
+
+            <div class="hero-middle">
+                <img src="/Pictures/afghanistan-news.webp" alt="">
+                <div class="hero-middle-heading">
+
+                    <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+                        data-testid="live-icon-svg-styled" class="sc-c0c6cf11-1 gnvphf sc-9c8c5e05-0 kHfxfq">
+                        <path class="outer"
+                            d="M13.3922 31.3913C6.25751 30.2611 0.846472 24.5392 0.0835577 17.3057C-0.410924 12.714 1.3127 7.95289 4.63278 4.61868C12.2761 -3.01046 25.1467 -0.891255 29.922 8.78645C32.6204 14.2257 31.9988 20.5268 28.2972 25.4293C24.8924 29.922 19.0151 32.2672 13.3922 31.3913ZM19.0858 28.6505C20.329 28.3255 22.2363 27.4778 23.2394 26.7856C24.2142 26.1215 25.8955 24.4686 26.616 23.4655C27.4213 22.3352 28.2972 20.4986 28.6787 19.0999C29.1167 17.4611 29.1167 14.0986 28.6787 12.4597C28.0288 10.0721 26.7573 7.96702 24.963 6.22927C23.6774 5.01426 22.9003 4.4774 21.3745 3.75687C19.3683 2.81029 18.3087 2.59837 15.7939 2.59837C13.2791 2.59837 12.2195 2.81029 10.2134 3.75687C8.68753 4.4774 7.91049 5.01426 6.62484 6.22927C4.83058 7.96702 3.57318 10.0721 2.90916 12.488C2.4712 14.0703 2.4712 17.4893 2.90916 19.0717C3.57318 21.4876 4.83058 23.5926 6.62484 25.3304C8.15067 26.7856 9.35155 27.5344 11.386 28.2973C13.5193 29.1026 16.7829 29.258 19.0858 28.6505Z">
+                        </path>
+                        <path class="inner"
+                            d="M13.8318 24.0437C10.5541 23.2949 7.94042 20.6671 7.24815 17.3894C6.42872 13.5042 8.40665 9.57661 12.0658 7.83886C16.2901 5.84681 21.4327 7.72584 23.4389 12.0066C25.6287 16.683 23.1422 22.2918 18.1974 23.8459C16.9965 24.2274 15.0186 24.3122 13.8318 24.0437Z">
+                        </path>
+                    </svg>
+                    <h1 class="live-logo"> <span style="color: red;">Live</span> Putin
+                        says he reached 'understandings' with Trump over end of Ukraine war
+                    </h1>
+                </div>
+                <p class="hero-middle-paragrapgh">The Russian president also defended his decision to
+                    invade Ukraine, once again blaming the war on
+                    the
+                    West.
+                </p>
+                <h5 class="middle-date-country">3 hrs ago Europe</h5>
+            </div>
+            <div class="hero-right">
+                <div>
+                    <h3 class="hero-right-heading">
+                        Jewellery boss in £170m scam told shop staff to pretend to be customers
+                    </h3>
+                    <p class="hero-right-paragrapgh">
+                        Insiders tell BBC Panorama how the man behind upmarket jeweller Vashi conned investors and
+                        customers.
+                    </p>
+                    <h5 class="right-date-country">
+                        1 day ago <span> | </span>UK
+                    </h5>
+                    <span class="hero-right-divider">___________________________________</span>
+                </div>
+                <div>
+                    <h3 class="hero-right-heading">
+                        Jewellery boss in £170m scam told shop staff to pretend to be customers
+                    </h3>
+                    <p class="hero-right-paragrapgh">
+                        Insiders tell BBC Panorama how the man behind upmarket jeweller Vashi conned investors and
+                        customers.
+                    </p>
+                    <h5 class="right-date-country">
+                        1 day ago <span> | </span>UK
+                    </h5>
+                    <span class="hero-right-divider">___________________________________</span>
+                </div>
+                <div>
+                    <h3 class="hero-right-heading">
+                        Jewellery boss in £170m scam told shop staff to pretend to be customers
+                    </h3>
+                    <p class="hero-right-paragrapgh">
+                        Insiders tell BBC Panorama how the man behind upmarket jeweller Vashi conned investors and
+                        customers.
+                    </p>
+                    <h5 class="right-date-country">
+                        1 day ago <span> | </span>UK
+                    </h5>
+                    <span class="hero-right-divider">___________________________________</span>
+                </div>
+                <div>
+                    <h3 class="hero-right-heading">
+                        Jewellery boss in £170m scam told shop staff to pretend to be customers
+                    </h3>
+                    <p class="hero-right-paragrapgh">
+                        Insiders tell BBC Panorama how the man behind upmarket jeweller Vashi conned investors and
+                        customers.
+                    </p>
+                    <h5 class="right-date-country">
+                        1 day ago <span> | </span>UK
+                    </h5>
+                </div>
+            </div>
+
+        </section>
+        <!-- second section start from here  -->
+
+        <section class="only-from-bbc">
+            <div class="only-bbc-divider"></div>
+            <div>
+                <h3 class="only-bbc-headline">ONLY FROM THE BBC</h3>
+            </div>
+            <div class="only-from-container">
+                <div class="from-container-aside">
+                    <img src="/Pictures/only-bbc-firstnews.webp" alt="">
+                    <h3>India's darkest skies are luring global tourists</h3>
+                    <p>In the Moon-like landscape of Hanle, the jet-black skies reveal otherworldly starry skies that
+                        lure travellers from far and wide. But can locals preserve the natural darkness?
+                    </p>
+                </div>
+
+                <div class="from-container-aside">
+                    <img src="/Pictures/only-bbc-secondnews.webp" alt="">
+                    <h3>The 1957 homosexuality report that divided the UK</h3>
+                    <p>When the Wolfenden Report was published 52 years ago this week, it pushed for decriminalising
+                        male homosexuality but it also led to a crackdown on sex workers.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- section second end here -->
+
+        <section class="audio-catalogue">
+            <div class="only-bbc-divider"></div>
+            <div>
+                <h3 class="audio-headline">LATEST AUDIO <span style="font-size: x-large; font-weight: bolder;">></span>
+                </h3>
+            </div>
+
+            <div class="audio-catalogue-container">
+                <div class="audio-catalogue-cards">
+                    <div class="audio-catalogue-image">
+                        <svg viewBox="0 0 14 14" width="20" height="20" category="content-types" icon="audio-new"
+                            type="content-types:audio-new" class="sc-9c8c5e05-0 kHfxfq">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M3.5415 13.2501L3.5415 0.750122L5.0415 0.750122L5.0415 13.2501L3.5415 13.2501Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M8.9585 11.8751L8.9585 2.12512L10.4585 2.12512L10.4585 11.8751L8.9585 11.8751Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.833496 9.16549L0.833496 4.83215L2.3335 4.83215L2.3335 9.16549L0.833496 9.16549Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M6.25 9.70963L6.25 4.29297L7.75 4.29297L7.75 9.70963L6.25 9.70963Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.6665 9.16549L11.6665 4.83215L13.1665 4.83215L13.1665 9.16549L11.6665 9.16549Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                        </svg>
+                        <img src="/Pictures/Audio section img1.webp" alt="">
+
+                    </div>
+                    <div class="audio-card-description">
+                        <h5>Global News Podcast</h5>
+                        <h4>Quake kills hundreds in Afghanistan</h4>
+                        <p>
+                            <span data-testid="button-icon-wrapper" class="sc-28fdc07f-0 ejZbmu">
+                                <svg width="12" height="12" viewBox="0 0 12 14" category="account"
+                                    icon="saved-items-outlined" aria-hidden="true" class="sc-9c8c5e05-0 kHfxfq">
+                                    <path
+                                        d="M5.99996 9.43351L9.46496 11.0741L9.46496 2.0125L2.53496 2.0125L2.53496 11.0741L5.99996 9.43351ZM0.959961 13.5625L0.959961 0.4375L11.04 0.4375L11.04 13.5625L5.99996 11.1761L0.959961 13.5625Z"
+                                        fill="currentColor">
+                                    </path>
+                                </svg>
+                            </span> Save <span> 33 mins </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="audio-catalogue-cards">
+                    <div class="audio-catalogue-image">
+                        <svg viewBox="0 0 14 14" width="20" height="20" category="content-types" icon="audio-new"
+                            type="content-types:audio-new" class="sc-9c8c5e05-0 kHfxfq">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M3.5415 13.2501L3.5415 0.750122L5.0415 0.750122L5.0415 13.2501L3.5415 13.2501Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M8.9585 11.8751L8.9585 2.12512L10.4585 2.12512L10.4585 11.8751L8.9585 11.8751Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.833496 9.16549L0.833496 4.83215L2.3335 4.83215L2.3335 9.16549L0.833496 9.16549Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M6.25 9.70963L6.25 4.29297L7.75 4.29297L7.75 9.70963L6.25 9.70963Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.6665 9.16549L11.6665 4.83215L13.1665 4.83215L13.1665 9.16549L11.6665 9.16549Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                        </svg>
+                        <img src="/Pictures/Audio section img2.webp" alt="">
+
+                    </div>
+                    <div class="audio-card-description">
+                        <h5>Global News Podcast</h5>
+                        <h4>Quake kills hundreds in Afghanistan</h4>
+                        <p>
+                            <span data-testid="button-icon-wrapper" class="sc-28fdc07f-0 ejZbmu">
+                                <svg width="12" height="12" viewBox="0 0 12 14" category="account"
+                                    icon="saved-items-outlined" aria-hidden="true" class="sc-9c8c5e05-0 kHfxfq">
+                                    <path
+                                        d="M5.99996 9.43351L9.46496 11.0741L9.46496 2.0125L2.53496 2.0125L2.53496 11.0741L5.99996 9.43351ZM0.959961 13.5625L0.959961 0.4375L11.04 0.4375L11.04 13.5625L5.99996 11.1761L0.959961 13.5625Z"
+                                        fill="currentColor">
+                                    </path>
+                                </svg>
+                            </span> Save <span> 33 mins </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="audio-catalogue-cards">
+                    <div class="audio-catalogue-image">
+                        <svg viewBox="0 0 14 14" width="20" height="20" category="content-types" icon="audio-new"
+                            type="content-types:audio-new" class="sc-9c8c5e05-0 kHfxfq">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M3.5415 13.2501L3.5415 0.750122L5.0415 0.750122L5.0415 13.2501L3.5415 13.2501Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M8.9585 11.8751L8.9585 2.12512L10.4585 2.12512L10.4585 11.8751L8.9585 11.8751Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.833496 9.16549L0.833496 4.83215L2.3335 4.83215L2.3335 9.16549L0.833496 9.16549Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M6.25 9.70963L6.25 4.29297L7.75 4.29297L7.75 9.70963L6.25 9.70963Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.6665 9.16549L11.6665 4.83215L13.1665 4.83215L13.1665 9.16549L11.6665 9.16549Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                        </svg>
+                        <img src="/Pictures/Audio section img3.webp" alt="">
+
+                    </div>
+                    <div class="audio-card-description">
+                        <h5>Global News Podcast</h5>
+                        <h4>Quake kills hundreds in Afghanistan</h4>
+                        <p>
+                            <span data-testid="button-icon-wrapper" class="sc-28fdc07f-0 ejZbmu">
+                                <svg width="12" height="12" viewBox="0 0 12 14" category="account"
+                                    icon="saved-items-outlined" aria-hidden="true" class="sc-9c8c5e05-0 kHfxfq">
+                                    <path
+                                        d="M5.99996 9.43351L9.46496 11.0741L9.46496 2.0125L2.53496 2.0125L2.53496 11.0741L5.99996 9.43351ZM0.959961 13.5625L0.959961 0.4375L11.04 0.4375L11.04 13.5625L5.99996 11.1761L0.959961 13.5625Z"
+                                        fill="currentColor">
+                                    </path>
+                                </svg>
+                            </span> Save <span> 33 mins </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="audio-catalogue-cards">
+                    <div class="audio-catalogue-image">
+                        <svg viewBox="0 0 14 14" width="20" height="20" category="content-types" icon="audio-new"
+                            type="content-types:audio-new" class="sc-9c8c5e05-0 kHfxfq">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M3.5415 13.2501L3.5415 0.750122L5.0415 0.750122L5.0415 13.2501L3.5415 13.2501Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M8.9585 11.8751L8.9585 2.12512L10.4585 2.12512L10.4585 11.8751L8.9585 11.8751Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.833496 9.16549L0.833496 4.83215L2.3335 4.83215L2.3335 9.16549L0.833496 9.16549Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M6.25 9.70963L6.25 4.29297L7.75 4.29297L7.75 9.70963L6.25 9.70963Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.6665 9.16549L11.6665 4.83215L13.1665 4.83215L13.1665 9.16549L11.6665 9.16549Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                        </svg>
+                        <img src="/Pictures/Audio section img7.webp" alt="">
+
+                    </div>
+                    <div class="audio-card-description">
+                        <h5>Global News Podcast</h5>
+                        <h4>Quake kills hundreds in Afghanistan</h4>
+                        <p>
+                            <span data-testid="button-icon-wrapper" class="sc-28fdc07f-0 ejZbmu">
+                                <svg width="12" height="12" viewBox="0 0 12 14" category="account"
+                                    icon="saved-items-outlined" aria-hidden="true" class="sc-9c8c5e05-0 kHfxfq">
+                                    <path
+                                        d="M5.99996 9.43351L9.46496 11.0741L9.46496 2.0125L2.53496 2.0125L2.53496 11.0741L5.99996 9.43351ZM0.959961 13.5625L0.959961 0.4375L11.04 0.4375L11.04 13.5625L5.99996 11.1761L0.959961 13.5625Z"
+                                        fill="currentColor">
+                                    </path>
+                                </svg>
+                            </span> Save <span> 33 mins </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="audio-catalogue-cards">
+                    <div class="audio-catalogue-image">
+                        <svg viewBox="0 0 14 14" width="20" height="20" category="content-types" icon="audio-new"
+                            type="content-types:audio-new" class="sc-9c8c5e05-0 kHfxfq">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M3.5415 13.2501L3.5415 0.750122L5.0415 0.750122L5.0415 13.2501L3.5415 13.2501Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M8.9585 11.8751L8.9585 2.12512L10.4585 2.12512L10.4585 11.8751L8.9585 11.8751Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.833496 9.16549L0.833496 4.83215L2.3335 4.83215L2.3335 9.16549L0.833496 9.16549Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M6.25 9.70963L6.25 4.29297L7.75 4.29297L7.75 9.70963L6.25 9.70963Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.6665 9.16549L11.6665 4.83215L13.1665 4.83215L13.1665 9.16549L11.6665 9.16549Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                        </svg>
+                        <img src="/Pictures/Audio section img6.webp" alt="">
+
+                    </div>
+                    <div class="audio-card-description">
+                        <h5>Global News Podcast</h5>
+                        <h4>Quake kills hundreds in Afghanistan</h4>
+                        <p>
+                            <span data-testid="button-icon-wrapper" class="sc-28fdc07f-0 ejZbmu">
+                                <svg width="12" height="12" viewBox="0 0 12 14" category="account"
+                                    icon="saved-items-outlined" aria-hidden="true" class="sc-9c8c5e05-0 kHfxfq">
+                                    <path
+                                        d="M5.99996 9.43351L9.46496 11.0741L9.46496 2.0125L2.53496 2.0125L2.53496 11.0741L5.99996 9.43351ZM0.959961 13.5625L0.959961 0.4375L11.04 0.4375L11.04 13.5625L5.99996 11.1761L0.959961 13.5625Z"
+                                        fill="currentColor">
+                                    </path>
+                                </svg>
+                            </span> Save <span> 33 mins </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="audio-catalogue-cards">
+                    <div class="audio-catalogue-image">
+                        <svg viewBox="0 0 14 14" width="20" height="20" category="content-types" icon="audio-new"
+                            type="content-types:audio-new" class="sc-9c8c5e05-0 kHfxfq">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M3.5415 13.2501L3.5415 0.750122L5.0415 0.750122L5.0415 13.2501L3.5415 13.2501Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M8.9585 11.8751L8.9585 2.12512L10.4585 2.12512L10.4585 11.8751L8.9585 11.8751Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.833496 9.16549L0.833496 4.83215L2.3335 4.83215L2.3335 9.16549L0.833496 9.16549Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M6.25 9.70963L6.25 4.29297L7.75 4.29297L7.75 9.70963L6.25 9.70963Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.6665 9.16549L11.6665 4.83215L13.1665 4.83215L13.1665 9.16549L11.6665 9.16549Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                        </svg>
+                        <img src="/Pictures/Audio section img5.webp" alt="">
+
+                    </div>
+                    <div class="audio-card-description">
+                        <h5>Global News Podcast</h5>
+                        <h4>Quake kills hundreds in Afghanistan</h4>
+                        <p>
+                            <span data-testid="button-icon-wrapper" class="sc-28fdc07f-0 ejZbmu">
+                                <svg width="12" height="12" viewBox="0 0 12 14" category="account"
+                                    icon="saved-items-outlined" aria-hidden="true" class="sc-9c8c5e05-0 kHfxfq">
+                                    <path
+                                        d="M5.99996 9.43351L9.46496 11.0741L9.46496 2.0125L2.53496 2.0125L2.53496 11.0741L5.99996 9.43351ZM0.959961 13.5625L0.959961 0.4375L11.04 0.4375L11.04 13.5625L5.99996 11.1761L0.959961 13.5625Z"
+                                        fill="currentColor">
+                                    </path>
+                                </svg>
+                            </span> Save <span> 33 mins </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="audio-catalogue-cards">
+                    <div class="audio-catalogue-image">
+                        <svg viewBox="0 0 14 14" width="20" height="20" category="content-types" icon="audio-new"
+                            type="content-types:audio-new" class="sc-9c8c5e05-0 kHfxfq">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M3.5415 13.2501L3.5415 0.750122L5.0415 0.750122L5.0415 13.2501L3.5415 13.2501Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M8.9585 11.8751L8.9585 2.12512L10.4585 2.12512L10.4585 11.8751L8.9585 11.8751Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.833496 9.16549L0.833496 4.83215L2.3335 4.83215L2.3335 9.16549L0.833496 9.16549Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M6.25 9.70963L6.25 4.29297L7.75 4.29297L7.75 9.70963L6.25 9.70963Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.6665 9.16549L11.6665 4.83215L13.1665 4.83215L13.1665 9.16549L11.6665 9.16549Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                        </svg>
+                        <img src="/Pictures/Audio section img4.webp" alt="">
+
+                    </div>
+                    <div class="audio-card-description">
+                        <h5>Global News Podcast</h5>
+                        <h4>Quake kills hundreds in Afghanistan</h4>
+                        <p>
+                            <span data-testid="button-icon-wrapper" class="sc-28fdc07f-0 ejZbmu">
+                                <svg width="12" height="12" viewBox="0 0 12 14" category="account"
+                                    icon="saved-items-outlined" aria-hidden="true" class="sc-9c8c5e05-0 kHfxfq">
+                                    <path
+                                        d="M5.99996 9.43351L9.46496 11.0741L9.46496 2.0125L2.53496 2.0125L2.53496 11.0741L5.99996 9.43351ZM0.959961 13.5625L0.959961 0.4375L11.04 0.4375L11.04 13.5625L5.99996 11.1761L0.959961 13.5625Z"
+                                        fill="currentColor">
+                                    </path>
+                                </svg>
+                            </span> Save <span> 33 mins </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="audio-catalogue-cards">
+                    <div class="audio-catalogue-image">
+                        <svg viewBox="0 0 14 14" width="20" height="20" category="content-types" icon="audio-new"
+                            type="content-types:audio-new" class="sc-9c8c5e05-0 kHfxfq">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M3.5415 13.2501L3.5415 0.750122L5.0415 0.750122L5.0415 13.2501L3.5415 13.2501Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M8.9585 11.8751L8.9585 2.12512L10.4585 2.12512L10.4585 11.8751L8.9585 11.8751Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.833496 9.16549L0.833496 4.83215L2.3335 4.83215L2.3335 9.16549L0.833496 9.16549Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M6.25 9.70963L6.25 4.29297L7.75 4.29297L7.75 9.70963L6.25 9.70963Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.6665 9.16549L11.6665 4.83215L13.1665 4.83215L13.1665 9.16549L11.6665 9.16549Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                        </svg>
+                        <img src="/Pictures/Audio section img1.webp" alt="">
+
+                    </div>
+                    <div class="audio-card-description">
+                        <h5>Global News Podcast</h5>
+                        <h4>Quake kills hundreds in Afghanistan</h4>
+                        <p>
+                            <span data-testid="button-icon-wrapper" class="sc-28fdc07f-0 ejZbmu">
+                                <svg width="12" height="12" viewBox="0 0 12 14" category="account"
+                                    icon="saved-items-outlined" aria-hidden="true" class="sc-9c8c5e05-0 kHfxfq">
+                                    <path
+                                        d="M5.99996 9.43351L9.46496 11.0741L9.46496 2.0125L2.53496 2.0125L2.53496 11.0741L5.99996 9.43351ZM0.959961 13.5625L0.959961 0.4375L11.04 0.4375L11.04 13.5625L5.99996 11.1761L0.959961 13.5625Z"
+                                        fill="currentColor">
+                                    </path>
+                                </svg>
+                            </span> Save <span> 33 mins </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="audio-catalogue-cards">
+                    <div class="audio-catalogue-image">
+                        <svg viewBox="0 0 14 14" width="20" height="20" category="content-types" icon="audio-new"
+                            type="content-types:audio-new" class="sc-9c8c5e05-0 kHfxfq">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M3.5415 13.2501L3.5415 0.750122L5.0415 0.750122L5.0415 13.2501L3.5415 13.2501Z"
+                                fill="currentColor" shape-rendering="crispEdges"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M8.9585 11.8751L8.9585 2.12512L10.4585 2.12512L10.4585 11.8751L8.9585 11.8751Z"
+                                fill="currentColor" shape-rendering="crispEdges"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.833496 9.16549L0.833496 4.83215L2.3335 4.83215L2.3335 9.16549L0.833496 9.16549Z"
+                                fill="currentColor" shape-rendering="crispEdges"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M6.25 9.70963L6.25 4.29297L7.75 4.29297L7.75 9.70963L6.25 9.70963Z"
+                                fill="currentColor" shape-rendering="crispEdges"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.6665 9.16549L11.6665 4.83215L13.1665 4.83215L13.1665 9.16549L11.6665 9.16549Z"
+                                fill="currentColor" shape-rendering="crispEdges"></path>
+                        </svg>
+                        <img src="/Pictures/Audio section img4.webp" alt="">
+
+                    </div>
+                    <div class="audio-card-description">
+                        <h5>Global News Podcast</h5>
+                        <h4>Quake kills hundreds in Afghanistan</h4>
+                        <p>
+                            <span data-testid="button-icon-wrapper" class="sc-28fdc07f-0 ejZbmu">
+                                <svg width="12" height="12" viewBox="0 0 12 14" category="account"
+                                    icon="saved-items-outlined" aria-hidden="true" class="sc-9c8c5e05-0 kHfxfq">
+                                    <path
+                                        d="M5.99996 9.43351L9.46496 11.0741L9.46496 2.0125L2.53496 2.0125L2.53496 11.0741L5.99996 9.43351ZM0.959961 13.5625L0.959961 0.4375L11.04 0.4375L11.04 13.5625L5.99996 11.1761L0.959961 13.5625Z"
+                                        fill="currentColor">
+                                    </path>
+                                </svg>
+                            </span> Save <span> 33 mins </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="audio-catalogue-cards">
+                    <div class="audio-catalogue-image">
+                        <svg viewBox="0 0 14 14" width="20" height="20" category="content-types" icon="audio-new"
+                            type="content-types:audio-new" class="sc-9c8c5e05-0 kHfxfq">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M3.5415 13.2501L3.5415 0.750122L5.0415 0.750122L5.0415 13.2501L3.5415 13.2501Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M8.9585 11.8751L8.9585 2.12512L10.4585 2.12512L10.4585 11.8751L8.9585 11.8751Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.833496 9.16549L0.833496 4.83215L2.3335 4.83215L2.3335 9.16549L0.833496 9.16549Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M6.25 9.70963L6.25 4.29297L7.75 4.29297L7.75 9.70963L6.25 9.70963Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.6665 9.16549L11.6665 4.83215L13.1665 4.83215L13.1665 9.16549L11.6665 9.16549Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                        </svg>
+                        <img src="/Pictures/Audio section img6.webp" alt="">
+                    </div>
+                    <div class="audio-card-description">
+                        <h5>Global News Podcast</h5>
+                        <h4>Quake kills hundreds in Afghanistan</h4>
+                        <p>
+                            <span data-testid="button-icon-wrapper" class="sc-28fdc07f-0 ejZbmu">
+                                <svg width="12" height="12" viewBox="0 0 12 14" category="account"
+                                    icon="saved-items-outlined" aria-hidden="true" class="sc-9c8c5e05-0 kHfxfq">
+                                    <path
+                                        d="M5.99996 9.43351L9.46496 11.0741L9.46496 2.0125L2.53496 2.0125L2.53496 11.0741L5.99996 9.43351ZM0.959961 13.5625L0.959961 0.4375L11.04 0.4375L11.04 13.5625L5.99996 11.1761L0.959961 13.5625Z"
+                                        fill="currentColor">
+                                    </path>
+                                </svg>
+                            </span> Save <span> 33 mins </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="audio-catalogue-cards">
+                    <div class="audio-catalogue-image">
+                        <svg viewBox="0 0 14 14" width="20" height="20" category="content-types" icon="audio-new"
+                            type="content-types:audio-new" class="sc-9c8c5e05-0 kHfxfq">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M3.5415 13.2501L3.5415 0.750122L5.0415 0.750122L5.0415 13.2501L3.5415 13.2501Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M8.9585 11.8751L8.9585 2.12512L10.4585 2.12512L10.4585 11.8751L8.9585 11.8751Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.833496 9.16549L0.833496 4.83215L2.3335 4.83215L2.3335 9.16549L0.833496 9.16549Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M6.25 9.70963L6.25 4.29297L7.75 4.29297L7.75 9.70963L6.25 9.70963Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.6665 9.16549L11.6665 4.83215L13.1665 4.83215L13.1665 9.16549L11.6665 9.16549Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                        </svg>
+                        <img src="/Pictures/Audio section img3.webp" alt="">
+
+                    </div>
+                    <div class="audio-card-description">
+                        <h5>Global News Podcast</h5>
+                        <h4>Quake kills hundreds in Afghanistan</h4>
+                        <p>
+                            <span data-testid="button-icon-wrapper" class="sc-28fdc07f-0 ejZbmu">
+                                <svg width="12" height="12" viewBox="0 0 12 14" category="account"
+                                    icon="saved-items-outlined" aria-hidden="true" class="sc-9c8c5e05-0 kHfxfq">
+                                    <path
+                                        d="M5.99996 9.43351L9.46496 11.0741L9.46496 2.0125L2.53496 2.0125L2.53496 11.0741L5.99996 9.43351ZM0.959961 13.5625L0.959961 0.4375L11.04 0.4375L11.04 13.5625L5.99996 11.1761L0.959961 13.5625Z"
+                                        fill="currentColor">
+                                    </path>
+                                </svg>
+                            </span>Save <span> 33 mins </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="audio-catalogue-cards">
+                    <div class="audio-catalogue-image">
+                        <svg viewBox="0 0 14 14" width="20" height="20" category="content-types" icon="audio-new"
+                            type="content-types:audio-new" class="sc-9c8c5e05-0 kHfxfq">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M3.5415 13.2501L3.5415 0.750122L5.0415 0.750122L5.0415 13.2501L3.5415 13.2501Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M8.9585 11.8751L8.9585 2.12512L10.4585 2.12512L10.4585 11.8751L8.9585 11.8751Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.833496 9.16549L0.833496 4.83215L2.3335 4.83215L2.3335 9.16549L0.833496 9.16549Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M6.25 9.70963L6.25 4.29297L7.75 4.29297L7.75 9.70963L6.25 9.70963Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.6665 9.16549L11.6665 4.83215L13.1665 4.83215L13.1665 9.16549L11.6665 9.16549Z"
+                                fill="currentColor" shape-rendering="crispEdges">
+                            </path>
+                        </svg>
+                        <img src="/Pictures/Audio section img7.webp" alt="">
+                    </div>
+                    <div class="audio-card-description">
+                        <h5>Global News Podcast</h5>
+                        <h4>Quake kills hundreds in Afghanistan</h4>
+                        <p>
+                            <span data-testid="button-icon-wrapper" class="sc-28fdc07f-0 ejZbmu">
+                                <svg width="12" height="12" viewBox="0 0 12 14" category="account"
+                                    icon="saved-items-outlined" aria-hidden="true" class="sc-9c8c5e05-0 kHfxfq">
+                                    <path
+                                        d="M5.99996 9.43351L9.46496 11.0741L9.46496 2.0125L2.53496 2.0125L2.53496 11.0741L5.99996 9.43351ZM0.959961 13.5625L0.959961 0.4375L11.04 0.4375L11.04 13.5625L5.99996 11.1761L0.959961 13.5625Z"
+                                        fill="currentColor">
+                                    </path>
+                                </svg>
+                            </span> Save <span> 33 mins </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Audio Section end here -->
+        <section class="more-news-section">
+            <div class="only-bbc-divider"></div>
+            <h3 class="more-news-heading">More News ></h3>
+            <div class="more-news-container">
+                <div class="more-news-trump">
+                    <div class="news-trump-description">
+                        <h1>Trump accuses Xi of conspiring against US with Putin and Kim</h1>
+                        <p>Donald Trump's comments came as China held a massive military parade attended by the Russian
+                            and North Korean leaders.
+                        </p>
+                        <h5>7 hrs ago <span> | </span> World</h5>
+                    </div>
+                    <img src="/Pictures/more-news-trump.webp" alt="">
+                </div>
+                <div class="more-news-aside">
+                    <div class="Israeli">
+                        <div>
+                            <img src="/Pictures/more-news-israel.webp" alt="">
+                        </div>
+
+                        <div>
+                            <h2>Australia-Israel relations have hit a low point. Behind the scenes, it's business as
+                                usual
+                            </h2>
+
+                            <p>The two democratic allies have had a spectacular falling out - but what has actually
+                                changed?
+                            </p>
+                            <h5>13 hrs ago <span>|</span>World</h5>
+                        </div>
+
+                    </div>
+                    <span class="hero-right-divider">___________________________________</span>
+                </div>
+                <div class="bottom-cards">
+                    <div class="bottom-card">
+                        <img src="/Pictures/more-news-burnt.webp" alt="">
+                        <h3>Death penalty for Indian man who burnt alive wife over skin colour</h3>
+                        <p>The judge said the murder fell in the category of "rarest of the rare" and was "a crime
+                            against humanity".
+                        </p>
+                        <h5>6 hrs ago <span>|</span> Asia</h5>
+                        <span class="hero-right-divider">___________________________________</span>
+                    </div>
+                    <div class="bottom-card">
+                        <img src="/Pictures/more-news-afghan.webp" alt="">
+                        <h3>Death penalty for Indian man who burnt alive wife over skin colour</h3>
+                        <p>The judge said the murder fell in the category of "rarest of the rare" and was "a crime
+                            against humanity".
+                        </p>
+                        <h5>6 hrs ago <span>|</span> Asia</h5>
+                        <span class="hero-right-divider">___________________________________</span>
+                    </div>
+                    <div class="bottom-card">
+                        <img src="/Pictures/more-news-jury.webp" alt="">
+                        <h3>Death penalty for Indian man who burnt alive wife over skin colour</h3>
+                        <p>The judge said the murder fell in the category of "rarest of the rare" and was "a crime
+                            against humanity".
+                        </p>
+                        <h5>6 hrs ago <span>|</span> Asia</h5>
+                        <span class="hero-right-divider">___________________________________</span>
+                    </div>
+                </div>
+                <div class="more-news-bottom">
+                    <div class="bottom-news">
+                        <div>
+                            <h3>US House panel releases 33,000 pages of Epstein files</h3>
+                            <p>But Republicans and Democrats alike say the files, including jail CCTV, contain little
+                                new information.
+                            </p>
+                            <h5>13 hrs ago <span>|</span>World</h5>
+                        </div>
+                        <div>
+                            <h3>Thousands of Israeli reservists report for duty ahead of Gaza City offensive</h3>
+                            <p>Ground forces are already pushing into the city, where hospitals say more than 50 people
+                                were killed by Israeli strikes on Tuesday.
+                            </p>
+                            <h5>13 hrs ago <span>|</span>World</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <div class="footer-logo">
+            <img src="/Pictures/bbc-logo.png" alt="BBC">
+        </div>
+        <div class="footer-description">
+            <ul class="footer-links">
+                <a href=""> Home</a>
+                <a href=""> News</a>
+                <a href=""> Sport</a>
+                <a href=""> Buisness</a>
+                <a href=""> Innovation</a>
+                <a href=""> Culture</a>
+                <a href=""> Arts</a>
+                <a href=""> Travel</a>
+                <a href=""> Earth</a>
+                <a href=""> Audio</a>
+                <a href=""> Video</a>
+                <a href=""> Live</a>
+                <a href=""> Weather</a>
+                <a href=""> BBC Shop</a>
+                <a href=""> BritBox</a>
+            </ul>
+            <div class="other-languages">
+                <button>BBC in other Languages</button>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="follow-bbc-on">
+                <h3>Follow BBC on: </h3>
+                <div class="social-media-icons">
+                    <i class="fa-brands fa-tiktok"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+            <div class="terms-of-use">
+                <ul>
+                    <a href=""> Terms of Use</a>
+                    <a href=""> About The BBC</a>
+                    <a href=""> Privacy Policy</a>
+                    <a href=""> Cookies</a>
+                    <a href=""> Assesbility Help </a>
+                    <a href=""> Contact The BBC</a>
+                    <a href=""> Advertise With Us </a>
+                    <a href=""> Don't share or sell my info</a>
+                    <a href=""> BBc .com help & FAQs</a>
+                    <a href=""> Context Index</a>
+                </ul>
+            </div>
+            <div class="copyright">
+                <h5>Copyright 2025 BBC. All rights reserved. The BBC is not responsible for the content of external
+                    sites. <span style="color: black;"> Read about our approach to external linking.</span>
+                </h5>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
