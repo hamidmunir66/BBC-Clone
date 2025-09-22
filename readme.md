@@ -1,0 +1,1 @@
+A project based on pure HTMl and CSS helps you to learn them, my internship first project in which you learn about how to make classes media queries , how to write html code in good way.
